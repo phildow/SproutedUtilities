@@ -1760,9 +1760,8 @@ const CFStringEncoding kGTResourceForkCFStringEncoding = kCFStringEncodingMacRom
 			if (entry.scrpFace & shadow) {
 				obj = [[[NSShadow alloc] init] autorelease];
 				if (obj) {
-					if (color)
-						[obj setShadowColor: color];
-					[obj setShadowOffset: NSMakeSize(0.0f, -2.0f)];
+					if (color) [obj setShadowColor: color];
+					[(NSShadow*)obj setShadowOffset: NSMakeSize(0.0f, -2.0f)];
 					[obj setShadowBlurRadius: 2.0f];
 					[result addAttribute: NSShadowAttributeName value: obj range: entryRange];
 				}

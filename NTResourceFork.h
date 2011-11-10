@@ -2,7 +2,7 @@
 #import <Foundation/Foundation.h>
 #import <Carbon/Carbon.h>
 
-// NOTE TO SELF: Where is this from?  CocoaTech Open Source I think.
+// Source: ?  CocoaTech Open Source I think.
 // needed for the PDWeblocFile class, a derivative of CocoaTech open source.
 
 @interface NTResourceFork : NSObject

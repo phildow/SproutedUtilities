@@ -2,7 +2,7 @@
 #import <SproutedUtilities/NTResourceFork.h>
 #import <SproutedUtilities/NSString+NDCarbonUtilities.h>
 
-// NOTE TO SELF: Where is this from?  CocoaTech Open Source I think.
+// Source: ?  CocoaTech Open Source I think.
 // needed for the PDWeblocFile class, a derivative of CocoaTech open source.
 
 @implementation NTResourceFork

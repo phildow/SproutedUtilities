@@ -3,9 +3,9 @@
 //  Journler
 //
 //  Created by Phil Dow on 1/19/07.
-//  Copyright 2007 __MyCompanyName__. All rights reserved.
+//  Copyright 2007 Philip Dow / Sprouted. All rights reserved.
 //
-//	From the Colloquy Source Code: http://colloquy.info/
+//	Source: The Colloquy Source Code: http://colloquy.info/
 
 #import <Cocoa/Cocoa.h>
 

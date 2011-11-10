@@ -1,4 +1,5 @@
 //  L0iPod.h
+//  Source: Cocoadev
 
 #import <Cocoa/Cocoa.h>
 #import <Carbon/Carbon.h>

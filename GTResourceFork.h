@@ -24,6 +24,9 @@
 
 #import <Cocoa/Cocoa.h>
 #import <Carbon/Carbon.h>
+#import <ApplicationServices/ApplicationServices.h>
+
+#warning Bits16 is no longer available in ApplicationServices - removed from 10.7?
 
 #pragma mark Resource Sections
 typedef struct OpaqueGTResourceSectionStateStruct *GTResourceSectionStateRef;

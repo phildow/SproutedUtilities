@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -39,6 +39,7 @@
 		728869DC0CC69A1300733960 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728869DB0CC69A1300733960 /* IOKit.framework */; };
 		728869E00CC69A2300733960 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728869DF0CC69A2300733960 /* Security.framework */; };
 		7292CB9B0E6482E400FFB912 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7292CB9A0E6482E400FFB912 /* QuickLook.framework */; };
+		729E2B0313E8FC7E002D2561 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729E2B0213E8FC7E002D2561 /* ApplicationServices.framework */; };
 		72C0FF890DD11CDA00CCE908 /* SproutedEmailer.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C0FF870DD11CDA00CCE908 /* SproutedEmailer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72C0FF8A0DD11CDA00CCE908 /* SproutedEmailer.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C0FF880DD11CDA00CCE908 /* SproutedEmailer.m */; };
 		72C0FF930DD11D2D00CCE908 /* Message.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C0FF920DD11D2D00CCE908 /* Message.framework */; };
@@ -141,6 +142,7 @@
 		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		32DBCF5E0370ADEE00C91783 /* Sprouted Utilities_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Sprouted Utilities_Prefix.pch"; sourceTree = "<group>"; };
+		72187813146C4B6F00BE839C /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		7276CFC30E65DC04001F8157 /* SproutedLabelConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SproutedLabelConverter.h; sourceTree = "<group>"; };
 		7276CFC40E65DC04001F8157 /* SproutedLabelConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SproutedLabelConverter.m; sourceTree = "<group>"; };
 		728869000CC68D5D00733960 /* ExceptionHandling.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExceptionHandling.framework; path = /System/Library/Frameworks/ExceptionHandling.framework; sourceTree = "<absolute>"; };
@@ -173,6 +175,7 @@
 		728869DB0CC69A1300733960 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
 		728869DF0CC69A2300733960 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
 		7292CB9A0E6482E400FFB912 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = /System/Library/Frameworks/QuickLook.framework; sourceTree = "<absolute>"; };
+		729E2B0213E8FC7E002D2561 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 		72C0FF870DD11CDA00CCE908 /* SproutedEmailer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SproutedEmailer.h; sourceTree = "<group>"; };
 		72C0FF880DD11CDA00CCE908 /* SproutedEmailer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SproutedEmailer.m; sourceTree = "<group>"; };
 		72C0FF920DD11D2D00CCE908 /* Message.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Message.framework; path = /System/Library/Frameworks/Message.framework; sourceTree = "<absolute>"; };
@@ -269,7 +272,6 @@
 		E3756C760C9F793600DEE90D /* NSApplication+PDAdditions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSApplication+PDAdditions.h"; sourceTree = "<group>"; };
 		E3756C770C9F793600DEE90D /* NSApplication+PDAdditions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSApplication+PDAdditions.m"; sourceTree = "<group>"; };
 		E3756DA70C9F7C3B00DEE90D /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = /usr/lib/libcrypto.dylib; sourceTree = "<absolute>"; };
-		E3756F620C9F82CC00DEE90D /* Read Me.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Read Me.rtf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,6 +279,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				729E2B0313E8FC7E002D2561 /* ApplicationServices.framework in Frameworks */,
 				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
 				E3756BF80C9F786300DEE90D /* AddressBook.framework in Frameworks */,
 				E3756BF90C9F786300DEE90D /* Carbon.framework in Frameworks */,
@@ -307,7 +310,7 @@
 		0867D691FE84028FC02AAC07 /* Sprouted Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				E3756F620C9F82CC00DEE90D /* Read Me.rtf */,
+				72187813146C4B6F00BE839C /* README.txt */,
 				E337C7C50CA1905E00797802 /* Version History.rtf */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
@@ -352,6 +355,7 @@
 		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				729E2B0213E8FC7E002D2561 /* ApplicationServices.framework */,
 				7292CB9A0E6482E400FFB912 /* QuickLook.framework */,
 				E3756DA70C9F7C3B00DEE90D /* libcrypto.dylib */,
 				728869DF0CC69A2300733960 /* Security.framework */,
@@ -627,8 +631,11 @@
 /* Begin PBXProject section */
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
 			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "Sprouted Utilities" */;
-			compatibilityVersion = "Xcode 2.4";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -743,7 +750,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -756,9 +762,9 @@
 				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = SproutedUtilities;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = macosx10.6;
 				WRAPPER_EXTENSION = framework;
 				ZERO_LINK = YES;
 			};
@@ -786,9 +792,9 @@
 				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = SproutedUtilities;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = macosx10.6;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -798,20 +804,19 @@
 			buildSettings = {
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
 		1DEB91B308733DA50010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
 			};
 			name = Release;
 		};
